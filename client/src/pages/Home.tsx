@@ -27,7 +27,7 @@ import {
 
 const assetHero = "/manus-storage/portfodia-hero-ecosystem_8120b0f4.png";
 const assetCollage = "/manus-storage/portfodia-editorial-collage_4b6e21c5.png";
-const assetMark = "/manus-storage/portfodia-mark_028f8e8b.png";
+const assetMark = "/manus-storage/portfodia-user-logo_5bb4fd07.jpg";
 
 const outcomes = [
   { label: "Build my Career Identity", group: "FOR INDIVIDUALS", icon: BadgeCheck, tint: "signal" },
@@ -47,7 +47,7 @@ const systemTabs = [
     description: "Create a trusted Career Identity that grows with every experience, achievement, and meaningful step in your workforce journey.",
     action: "Explore Career Identity",
     icon: BadgeCheck,
-    accent: "#B9F227",
+    accent: "#6D28D9",
   },
   {
     id: "records",
@@ -57,7 +57,7 @@ const systemTabs = [
     description: "Capture the work that matters as trusted Workforce Records — created by individuals, supported by organizations, and built to strengthen credibility over time.",
     action: "Explore Workforce Records",
     icon: FileCheck2,
-    accent: "#7DD3FC",
+    accent: "#F59E0B",
   },
   {
     id: "portfolios",
@@ -67,7 +67,7 @@ const systemTabs = [
     description: "Generate focused Career Portfolios from your identity and records, ready for the opportunity in front of you.",
     action: "Explore Career Portfolios",
     icon: BriefcaseBusiness,
-    accent: "#FBBF24",
+    accent: "#C2410C",
   },
   {
     id: "communities",
@@ -77,7 +77,7 @@ const systemTabs = [
     description: "Bring people and organizations together to collaborate, support workforce programmes, and create better routes into opportunity.",
     action: "Explore Communities",
     icon: UsersRound,
-    accent: "#F0ABFC",
+    accent: "#8B5CF6",
   },
   {
     id: "opportunities",
@@ -87,7 +87,7 @@ const systemTabs = [
     description: "Publish and discover jobs, internships, apprenticeships, scholarships, projects, events, and more meaningful workforce experiences.",
     action: "Explore Opportunities",
     icon: Radar,
-    accent: "#67E8F9",
+    accent: "#D97706",
   },
 ];
 
