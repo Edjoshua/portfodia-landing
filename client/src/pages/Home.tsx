@@ -152,6 +152,7 @@ export default function Home() {
           <nav className={`main-nav ${mobileOpen ? "main-nav--open" : ""}`}>
             <a href="#explore" onClick={() => setMobileOpen(false)}>Explore</a>
             <a href="#solutions" onClick={() => setMobileOpen(false)}>Solutions</a>
+            <a href="/journeys" onClick={() => setMobileOpen(false)}>Journeys</a>
             <a href="#why" onClick={() => setMobileOpen(false)}>Why Portfodia</a>
             <a href="#resources" onClick={() => setMobileOpen(false)}>Resources</a>
             <div className="mobile-nav-actions"><a href="#start">Log in</a><Button>Get started free</Button></div>
@@ -206,7 +207,7 @@ export default function Home() {
         <section className="cta-section section-frame" id="start"><div className="cta-mark"><img src={assetMark} alt="" aria-hidden="true" /></div><p className="eyebrow">06 / Your next move</p><h2>Give your next move<br /><em>a trusted foundation.</em></h2><p>Whether you are building your Career Identity, supporting Workforce Records, growing a Community, or connecting meaningful Opportunities — start with the outcome that matters to you.</p><div className="hero-actions"><Button>Get started free</Button><Button variant="outline" href="#explore">Explore Portfodia</Button></div></section>
       </main>
 
-      <footer className="site-footer" id="resources"><div className="footer-top"><div><a href="#top"><Mark large /></a><p>The trusted infrastructure for workforce journeys.</p></div><div className="footer-columns"><div><span>PRODUCT</span><a href="#solutions">Career Identity</a><a href="#solutions">Workforce Records</a><a href="#solutions">Communities</a><a href="#solutions">Opportunities</a></div><div><span>SOLUTIONS</span><a href="#solutions">Individuals</a><a href="#solutions">Employers</a><a href="#solutions">Universities</a><a href="#solutions">Public institutions</a></div><div><span>RESOURCES</span><a href="#resources">Help Centre</a><a href="#resources">User guides</a><a href="#resources">FAQs</a><a href="#resources">Support</a></div></div></div><div className="footer-bottom"><span>© 2026 Portfodia. A YouthUp Global ecosystem.</span><span>Built for meaningful progress <ArrowDownRight size={15} /></span></div></footer>
+      <footer className="site-footer" id="resources"><div className="footer-top"><div><a href="#top"><Mark large /></a><p>The trusted infrastructure for workforce journeys.</p></div><div className="footer-columns"><div><span>PRODUCT</span><a href="#solutions">Career Identity</a><a href="#solutions">Workforce Records</a><a href="#solutions">Communities</a><a href="#solutions">Opportunities</a></div><div><span>SOLUTIONS</span><a href="#solutions">Individuals</a><a href="#solutions">Employers</a><a href="#solutions">Universities</a><a href="#solutions">Public institutions</a></div><div><span>RESOURCES</span><a href="/journeys">Journeys</a><a href="#resources">Help Centre</a><a href="#resources">User guides</a><a href="#resources">FAQs</a><a href="#resources">Support</a></div></div></div><div className="footer-bottom"><span>© 2026 Portfodia. A YouthUp Global ecosystem.</span><span>Built for meaningful progress <ArrowDownRight size={15} /></span></div></footer>
     </div>
   );
 }
